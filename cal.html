@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<!--
+Mitzi Bustamante
+November 1 2018
+CISC 131
+Calcultor Part: 5 
+Working Calcultor
+-->
+<html lang="en">
+<head>
+<title>this will appear on the tab in the browser</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script src="cal.js"></script>
+
+<style>
+#tooltip {background-color: rgb(140, 240, 190);height: 1.5em;  }
+#display {background-color: mintCream; height: 1.5em;}
+table,th, td {border: 1.5px solid black; color: darkslateblue; }
+.number {background-color: lavender;}
+.number1 {background-color: lightgoldenrodyellow}
+.number2 {background-color: rgb(14, 211, 211)}
+.number3 {background-color: lavenderblush}
+.clear {background-color: lightgray}
+#table td
+{
+color: black;
+font-family: "Comic Sans MS, cursive, sans-serif";
+font-size: 2em;
+text-align: center;
+width: 55px;
+}
+
+</style>
+</head>
+<body>
+<div id="table">
+<table  align="center">
+<tr ><td colspan="4" id="display" ></td>  </tr>
+<tr > <td class="number" id="number0">7</td>
+<td class="number" id="number1">8</td>
+<td class="number" id="number2">9</td>
+<td class="number"id="number3">+</td>
+</tr>
+<tr> <td class="number1" id="number4">4</td>
+<td class="number1"id="number5">5</td>
+<td class="number1" id="number6">6</td>
+<td class="number1" id="number7">-</td>
+</tr>
+<tr> <td  class="number2" id="number8" >1</td>
+<td class="number2" id="number9">2</td>
+<td class="number2" id="number10">3</td>
+<td class="number2" id="number11">/</td>
+</tr>
+<tr> <td class="number3" id="number12">0</td>
+<td class="number3" id="number13">.</td>
+<td class="number3" id="number14">=</td>
+<td class="number3" id="number15">*</td>
+</tr>
+<tr class="clear"> <td colspan="2" id="clear"> Clear </td> 
+<td class="clear" colspan="2" id="clear1"> Clear All</td></tr>
+<tr> <td colspan="4" id="tooltip" ></tr> </td>
+</table>
+</body>
+</html>
